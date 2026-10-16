@@ -39382,6 +39382,10 @@ fn main() {
   (crate-source "wayland-protocols-misc" "0.3.12"
                 "1j19dg8h98s153rj2fvbqkghjicdfgjjkr6nvaw0jgpjkrcng5bf"))
 
+(define rust-wayland-protocols-misc-0.3.9
+  (crate-source "wayland-protocols-misc" "0.3.9"
+                "176i0xirlaaif6arj6l4ay8r2qxr9fsahrzh7z8gz2zba7ak7zid"))
+
 (define rust-wayland-protocols-plasma-0.3.10
   (crate-source "wayland-protocols-plasma" "0.3.10"
                 "0srh0xhf4jpz8s1kx531lh0ixzx5v6p3iwwpk9d562ih3536765a"))
@@ -39457,6 +39461,10 @@ fn main() {
 (define rust-wayland-scanner-0.31.9
   (crate-source "wayland-scanner" "0.31.9"
                 "1qx4ky8sn95qkk45fnghdaas4j508mrrnw6a46w9k5rh38aqfqn8"))
+
+(define rust-wayland-server-0.31.10
+  (crate-source "wayland-server" "0.31.10"
+                "08k23abw3vav8f71x6s5m70mc0zgq22a9ljs8iqbm7vcp8x4zggw"))
 
 (define rust-wayland-server-0.31.13
   (crate-source "wayland-server" "0.31.13"
@@ -76983,214 +76991,214 @@ fn main() {
                                 rust-zvariant-utils-3.4.0))
                      (newsboat =>
                                (list rust-addr2line-0.25.1
-                                rust-adler2-2.0.1
-                                rust-aho-corasick-1.1.5
-                                rust-android-system-properties-0.1.6
-                                rust-anstyle-1.0.14
-                                rust-assert-json-diff-2.0.2
-                                rust-async-lock-3.4.2
-                                rust-async-object-pool-0.2.0
-                                rust-async-trait-0.1.92
-                                rust-atomic-waker-1.1.2
-                                rust-autocfg-1.5.1
-                                rust-backtrace-0.3.76
-                                rust-base64-0.22.1
-                                rust-bit-set-0.8.0
-                                rust-bit-vec-0.8.0
-                                rust-bitflags-2.13.2
-                                rust-block-0.1.6
-                                rust-block-buffer-0.10.4
-                                rust-bumpalo-3.20.3
-                                rust-bytes-1.12.1
-                                rust-cc-1.6.0
-                                rust-cfg-if-1.0.5
-                                rust-chrono-0.4.45
-                                rust-clap-4.6.7
-                                rust-clap-builder-4.6.7
-                                rust-clap-lex-1.1.1
-                                rust-codespan-reporting-0.13.1
-                                rust-core-foundation-sys-0.8.7
-                                rust-cpufeatures-0.2.17
-                                rust-crossbeam-utils-0.8.23
-                                rust-crypto-common-0.1.7
-                                rust-curl-sys-0.4.91+curl-8.22.0
-                                rust-cxx-1.0.203
-                                rust-cxx-build-1.0.203
-                                rust-cxxbridge-cmd-1.0.203
-                                rust-cxxbridge-flags-1.0.203
-                                rust-cxxbridge-macro-1.0.203
-                                rust-digest-0.10.7
-                                rust-displaydoc-0.2.7
-                                rust-equivalent-1.0.2
-                                rust-errno-0.3.14
-                                rust-event-listener-5.4.2
-                                rust-event-listener-strategy-0.5.4
-                                rust-fastrand-2.5.0
-                                rust-find-msvc-tools-0.1.14
-                                rust-fnv-1.0.7
-                                rust-foldhash-0.2.0
-                                rust-form-urlencoded-1.2.2
-                                rust-futures-channel-0.3.34
-                                rust-futures-core-0.3.34
-                                rust-futures-macro-0.3.34
-                                rust-futures-sink-0.3.34
-                                rust-futures-task-0.3.34
-                                rust-futures-timer-3.0.4
-                                rust-futures-util-0.3.34
-                                rust-generic-array-0.14.7
-                                rust-getrandom-0.3.4
-                                rust-getrandom-0.4.3
-                                rust-gettext-rs-0.8.0
-                                rust-gettext-sys-0.27.0
-                                rust-gimli-0.32.3
-                                rust-h2-0.4.20
-                                rust-hashbrown-0.17.1
-                                rust-headers-0.4.2
-                                rust-headers-core-0.3.0
-                                rust-http-1.5.0
-                                rust-http-body-1.1.0
-                                rust-http-body-util-0.1.5
-                                rust-httparse-1.10.1
-                                rust-httpdate-1.0.3
-                                rust-httpmock-0.8.3
-                                rust-hyper-1.12.0
-                                rust-hyper-util-0.1.21
-                                rust-iana-time-zone-0.1.65
-                                rust-iana-time-zone-haiku-0.1.2
-                                rust-icu-collections-2.3.0
-                                rust-icu-locale-core-2.3.0
-                                rust-icu-normalizer-2.3.0
-                                rust-icu-normalizer-data-2.3.0
-                                rust-icu-properties-2.3.0
-                                rust-icu-properties-data-2.3.0
-                                rust-icu-provider-2.3.1
-                                rust-idna-1.1.0
-                                rust-idna-adapter-1.2.2
-                                rust-indexmap-2.14.2
-                                rust-itoa-1.0.18
-                                rust-js-sys-0.3.106
-                                rust-lazy-static-1.5.1
-                                rust-lexopt-0.3.2
-                                rust-libc-0.2.190
-                                rust-libz-sys-1.1.29
-                                rust-link-cplusplus-1.0.12
-                                rust-linux-raw-sys-0.12.1
-                                rust-litemap-0.8.3
-                                rust-locale-config-0.3.0
-                                rust-log-0.4.34
-                                rust-malloc-buf-0.0.6
-                                rust-md5-0.8.1
-                                rust-memchr-2.8.3
-                                rust-mime-0.3.17
-                                rust-miniz-oxide-0.8.9
-                                rust-mio-1.2.4
-                                rust-natord-1.0.9
-                                rust-nom-8.0.0
-                                rust-num-traits-0.2.19
-                                rust-objc-0.2.7
-                                rust-objc-foundation-0.1.1
-                                rust-objc-id-0.1.1
-                                rust-object-0.37.3
-                                rust-once-cell-1.21.4
-                                rust-parking-2.2.1
-                                rust-path-tree-0.8.3
-                                rust-percent-encoding-2.3.2
-                                rust-pin-project-lite-0.2.17
-                                rust-pkg-config-0.3.34
-                                rust-potential-utf-0.1.6
-                                rust-ppv-lite86-0.2.21
-                                rust-proc-macro2-1.0.107
-                                rust-proptest-1.11.0
-                                rust-quick-error-1.2.3
-                                rust-quote-1.0.47
-                                rust-r-efi-5.3.0
-                                rust-r-efi-6.0.0
-                                rust-rand-0.9.5
-                                rust-rand-chacha-0.9.0
-                                rust-rand-core-0.9.5
-                                rust-rand-xorshift-0.4.0
-                                rust-regex-1.13.1
-                                rust-regex-automata-0.4.18
-                                rust-regex-syntax-0.8.11
-                                rust-rustc-demangle-0.1.28
-                                rust-rustix-1.1.5
-                                rust-rustversion-1.0.23
-                                rust-rusty-fork-0.3.1
-                                rust-scratch-1.0.9
-                                rust-section-testing-0.0.5
-                                rust-serde-1.0.229
-                                rust-serde-core-1.0.229
-                                rust-serde-derive-1.0.229
-                                rust-serde-json-1.0.151
-                                rust-serde-regex-1.2.0
-                                rust-sha1-0.10.7
-                                rust-shlex-2.0.1
-                                rust-signal-hook-registry-1.4.8
-                                rust-similar-2.7.0
-                                rust-slab-0.4.12
-                                rust-smallvec-1.16.2
-                                rust-socket2-0.6.5
-                                rust-stable-deref-trait-1.2.1
-                                rust-stringmetrics-2.2.2
-                                rust-strsim-0.11.1
-                                rust-syn-2.0.119
-                                rust-syn-3.0.6
-                                rust-synstructure-0.14.0
-                                rust-tabwriter-1.4.1
-                                rust-temp-dir-0.1.16
-                                rust-tempfile-3.27.0
-                                rust-termcolor-1.4.1
-                                rust-thiserror-2.0.21
-                                rust-thiserror-impl-2.0.21
-                                rust-tinystr-0.8.4
-                                rust-tokio-1.53.2
-                                rust-tokio-macros-2.7.2
-                                rust-tokio-util-0.7.20
-                                rust-tracing-0.1.44
-                                rust-tracing-attributes-0.1.31
-                                rust-tracing-core-0.1.36
-                                rust-try-lock-0.2.5
-                                rust-typenum-1.20.1
-                                rust-unarray-0.1.4
-                                rust-unicode-ident-1.0.26
-                                rust-unicode-segmentation-1.13.3
-                                rust-unicode-width-0.2.2
-                                rust-url-2.5.8
-                                rust-utf8-iter-1.0.4
-                                rust-vcpkg-0.2.15
-                                rust-version-check-0.9.5
-                                rust-wait-timeout-0.2.1
-                                rust-want-0.3.2
-                                rust-wasi-0.11.1+wasi-snapshot-preview1
-                                rust-wasip2-1.0.4+wasi-0.2.12
-                                rust-wasm-bindgen-0.2.129
-                                rust-wasm-bindgen-macro-0.2.129
-                                rust-wasm-bindgen-macro-support-0.2.129
-                                rust-wasm-bindgen-shared-0.2.129
-                                rust-winapi-0.3.9
-                                rust-winapi-i686-pc-windows-gnu-0.4.0
-                                rust-winapi-util-0.1.11
-                                rust-winapi-x86-64-pc-windows-gnu-0.4.0
-                                rust-windows-core-0.62.2
-                                rust-windows-implement-0.60.2
-                                rust-windows-interface-0.59.3
-                                rust-windows-link-0.2.1
-                                rust-windows-result-0.4.1
-                                rust-windows-strings-0.5.1
-                                rust-windows-sys-0.61.2
-                                rust-wit-bindgen-0.57.1
-                                rust-writeable-0.6.4
-                                rust-xdg-3.0.0
-                                rust-yoke-0.8.3
-                                rust-yoke-derive-0.8.4
-                                rust-zerocopy-0.8.62
-                                rust-zerocopy-derive-0.8.62
-                                rust-zerofrom-0.1.8
-                                rust-zerofrom-derive-0.1.8
-                                rust-zerotrie-0.2.5
-                                rust-zerovec-0.11.8
-                                rust-zerovec-derive-0.11.6
-                                rust-zmij-1.0.23))
+                                     rust-adler2-2.0.1
+                                     rust-aho-corasick-1.1.5
+                                     rust-android-system-properties-0.1.6
+                                     rust-anstyle-1.0.14
+                                     rust-assert-json-diff-2.0.2
+                                     rust-async-lock-3.4.2
+                                     rust-async-object-pool-0.2.0
+                                     rust-async-trait-0.1.92
+                                     rust-atomic-waker-1.1.2
+                                     rust-autocfg-1.5.1
+                                     rust-backtrace-0.3.76
+                                     rust-base64-0.22.1
+                                     rust-bit-set-0.8.0
+                                     rust-bit-vec-0.8.0
+                                     rust-bitflags-2.13.2
+                                     rust-block-0.1.6
+                                     rust-block-buffer-0.10.4
+                                     rust-bumpalo-3.20.3
+                                     rust-bytes-1.12.1
+                                     rust-cc-1.6.0
+                                     rust-cfg-if-1.0.5
+                                     rust-chrono-0.4.45
+                                     rust-clap-4.6.7
+                                     rust-clap-builder-4.6.7
+                                     rust-clap-lex-1.1.1
+                                     rust-codespan-reporting-0.13.1
+                                     rust-core-foundation-sys-0.8.7
+                                     rust-cpufeatures-0.2.17
+                                     rust-crossbeam-utils-0.8.23
+                                     rust-crypto-common-0.1.7
+                                     rust-curl-sys-0.4.91+curl-8.22.0
+                                     rust-cxx-1.0.203
+                                     rust-cxx-build-1.0.203
+                                     rust-cxxbridge-cmd-1.0.203
+                                     rust-cxxbridge-flags-1.0.203
+                                     rust-cxxbridge-macro-1.0.203
+                                     rust-digest-0.10.7
+                                     rust-displaydoc-0.2.7
+                                     rust-equivalent-1.0.2
+                                     rust-errno-0.3.14
+                                     rust-event-listener-5.4.2
+                                     rust-event-listener-strategy-0.5.4
+                                     rust-fastrand-2.5.0
+                                     rust-find-msvc-tools-0.1.14
+                                     rust-fnv-1.0.7
+                                     rust-foldhash-0.2.0
+                                     rust-form-urlencoded-1.2.2
+                                     rust-futures-channel-0.3.34
+                                     rust-futures-core-0.3.34
+                                     rust-futures-macro-0.3.34
+                                     rust-futures-sink-0.3.34
+                                     rust-futures-task-0.3.34
+                                     rust-futures-timer-3.0.4
+                                     rust-futures-util-0.3.34
+                                     rust-generic-array-0.14.7
+                                     rust-getrandom-0.3.4
+                                     rust-getrandom-0.4.3
+                                     rust-gettext-rs-0.8.0
+                                     rust-gettext-sys-0.27.0
+                                     rust-gimli-0.32.3
+                                     rust-h2-0.4.20
+                                     rust-hashbrown-0.17.1
+                                     rust-headers-0.4.2
+                                     rust-headers-core-0.3.0
+                                     rust-http-1.5.0
+                                     rust-http-body-1.1.0
+                                     rust-http-body-util-0.1.5
+                                     rust-httparse-1.10.1
+                                     rust-httpdate-1.0.3
+                                     rust-httpmock-0.8.3
+                                     rust-hyper-1.12.0
+                                     rust-hyper-util-0.1.21
+                                     rust-iana-time-zone-0.1.65
+                                     rust-iana-time-zone-haiku-0.1.2
+                                     rust-icu-collections-2.3.0
+                                     rust-icu-locale-core-2.3.0
+                                     rust-icu-normalizer-2.3.0
+                                     rust-icu-normalizer-data-2.3.0
+                                     rust-icu-properties-2.3.0
+                                     rust-icu-properties-data-2.3.0
+                                     rust-icu-provider-2.3.1
+                                     rust-idna-1.1.0
+                                     rust-idna-adapter-1.2.2
+                                     rust-indexmap-2.14.2
+                                     rust-itoa-1.0.18
+                                     rust-js-sys-0.3.106
+                                     rust-lazy-static-1.5.1
+                                     rust-lexopt-0.3.2
+                                     rust-libc-0.2.190
+                                     rust-libz-sys-1.1.29
+                                     rust-link-cplusplus-1.0.12
+                                     rust-linux-raw-sys-0.12.1
+                                     rust-litemap-0.8.3
+                                     rust-locale-config-0.3.0
+                                     rust-log-0.4.34
+                                     rust-malloc-buf-0.0.6
+                                     rust-md5-0.8.1
+                                     rust-memchr-2.8.3
+                                     rust-mime-0.3.17
+                                     rust-miniz-oxide-0.8.9
+                                     rust-mio-1.2.4
+                                     rust-natord-1.0.9
+                                     rust-nom-8.0.0
+                                     rust-num-traits-0.2.19
+                                     rust-objc-0.2.7
+                                     rust-objc-foundation-0.1.1
+                                     rust-objc-id-0.1.1
+                                     rust-object-0.37.3
+                                     rust-once-cell-1.21.4
+                                     rust-parking-2.2.1
+                                     rust-path-tree-0.8.3
+                                     rust-percent-encoding-2.3.2
+                                     rust-pin-project-lite-0.2.17
+                                     rust-pkg-config-0.3.34
+                                     rust-potential-utf-0.1.6
+                                     rust-ppv-lite86-0.2.21
+                                     rust-proc-macro2-1.0.107
+                                     rust-proptest-1.11.0
+                                     rust-quick-error-1.2.3
+                                     rust-quote-1.0.47
+                                     rust-r-efi-5.3.0
+                                     rust-r-efi-6.0.0
+                                     rust-rand-0.9.5
+                                     rust-rand-chacha-0.9.0
+                                     rust-rand-core-0.9.5
+                                     rust-rand-xorshift-0.4.0
+                                     rust-regex-1.13.1
+                                     rust-regex-automata-0.4.18
+                                     rust-regex-syntax-0.8.11
+                                     rust-rustc-demangle-0.1.28
+                                     rust-rustix-1.1.5
+                                     rust-rustversion-1.0.23
+                                     rust-rusty-fork-0.3.1
+                                     rust-scratch-1.0.9
+                                     rust-section-testing-0.0.5
+                                     rust-serde-1.0.229
+                                     rust-serde-core-1.0.229
+                                     rust-serde-derive-1.0.229
+                                     rust-serde-json-1.0.151
+                                     rust-serde-regex-1.2.0
+                                     rust-sha1-0.10.7
+                                     rust-shlex-2.0.1
+                                     rust-signal-hook-registry-1.4.8
+                                     rust-similar-2.7.0
+                                     rust-slab-0.4.12
+                                     rust-smallvec-1.16.2
+                                     rust-socket2-0.6.5
+                                     rust-stable-deref-trait-1.2.1
+                                     rust-stringmetrics-2.2.2
+                                     rust-strsim-0.11.1
+                                     rust-syn-2.0.119
+                                     rust-syn-3.0.6
+                                     rust-synstructure-0.14.0
+                                     rust-tabwriter-1.4.1
+                                     rust-temp-dir-0.1.16
+                                     rust-tempfile-3.27.0
+                                     rust-termcolor-1.4.1
+                                     rust-thiserror-2.0.21
+                                     rust-thiserror-impl-2.0.21
+                                     rust-tinystr-0.8.4
+                                     rust-tokio-1.53.2
+                                     rust-tokio-macros-2.7.2
+                                     rust-tokio-util-0.7.20
+                                     rust-tracing-0.1.44
+                                     rust-tracing-attributes-0.1.31
+                                     rust-tracing-core-0.1.36
+                                     rust-try-lock-0.2.5
+                                     rust-typenum-1.20.1
+                                     rust-unarray-0.1.4
+                                     rust-unicode-ident-1.0.26
+                                     rust-unicode-segmentation-1.13.3
+                                     rust-unicode-width-0.2.2
+                                     rust-url-2.5.8
+                                     rust-utf8-iter-1.0.4
+                                     rust-vcpkg-0.2.15
+                                     rust-version-check-0.9.5
+                                     rust-wait-timeout-0.2.1
+                                     rust-want-0.3.2
+                                     rust-wasi-0.11.1+wasi-snapshot-preview1
+                                     rust-wasip2-1.0.4+wasi-0.2.12
+                                     rust-wasm-bindgen-0.2.129
+                                     rust-wasm-bindgen-macro-0.2.129
+                                     rust-wasm-bindgen-macro-support-0.2.129
+                                     rust-wasm-bindgen-shared-0.2.129
+                                     rust-winapi-0.3.9
+                                     rust-winapi-i686-pc-windows-gnu-0.4.0
+                                     rust-winapi-util-0.1.11
+                                     rust-winapi-x86-64-pc-windows-gnu-0.4.0
+                                     rust-windows-core-0.62.2
+                                     rust-windows-implement-0.60.2
+                                     rust-windows-interface-0.59.3
+                                     rust-windows-link-0.2.1
+                                     rust-windows-result-0.4.1
+                                     rust-windows-strings-0.5.1
+                                     rust-windows-sys-0.61.2
+                                     rust-wit-bindgen-0.57.1
+                                     rust-writeable-0.6.4
+                                     rust-xdg-3.0.0
+                                     rust-yoke-0.8.3
+                                     rust-yoke-derive-0.8.4
+                                     rust-zerocopy-0.8.62
+                                     rust-zerocopy-derive-0.8.62
+                                     rust-zerofrom-0.1.8
+                                     rust-zerofrom-derive-0.1.8
+                                     rust-zerotrie-0.2.5
+                                     rust-zerovec-0.11.8
+                                     rust-zerovec-derive-0.11.6
+                                     rust-zmij-1.0.23))
                      (ngit-cli =>
                                (list rust-aead-0.5.2
                                 rust-aes-0.8.4
@@ -111986,14 +111994,14 @@ fn main() {
                                           rust-ahash-0.8.12
                                           rust-aho-corasick-1.1.4
                                           rust-allocator-api2-0.2.21
-                                          rust-anyhow-1.0.102
+                                          rust-anyhow-1.0.100
                                           rust-arrayref-0.3.9
                                           rust-arrayvec-0.7.6
                                           rust-bindgen-0.72.1
                                           rust-bitflags-1.3.2
-                                          rust-bitflags-2.11.1
-                                          rust-bytemuck-1.25.0
-                                          rust-cc-1.2.60
+                                          rust-bitflags-2.10.0
+                                          rust-bytemuck-1.24.0
+                                          rust-cc-1.2.48
                                           rust-cexpr-0.6.0
                                           rust-cfg-if-1.0.4
                                           rust-clang-sys-1.8.1
@@ -112002,19 +112010,19 @@ fn main() {
                                           rust-darling-0.20.11
                                           rust-darling-core-0.20.11
                                           rust-darling-macro-0.20.11
-                                          rust-deranged-0.5.8
+                                          rust-deranged-0.5.5
                                           rust-derive-builder-0.20.2
                                           rust-derive-builder-core-0.20.2
                                           rust-derive-builder-macro-0.20.2
-                                          rust-dlib-0.5.3
+                                          rust-dlib-0.5.2
                                           rust-downcast-rs-1.2.1
                                           rust-either-1.15.0
                                           rust-env-logger-0.10.2
                                           rust-equivalent-1.0.2
                                           rust-errno-0.3.14
                                           rust-fdeflate-0.3.7
-                                          rust-find-msvc-tools-0.1.9
-                                          rust-flate2-1.1.9
+                                          rust-find-msvc-tools-0.1.5
+                                          rust-flate2-1.1.5
                                           rust-fnv-1.0.7
                                           rust-foldhash-0.1.5
                                           rust-fontconfig-0.10.0
@@ -112022,100 +112030,102 @@ fn main() {
                                           rust-glob-0.3.3
                                           rust-hashbrown-0.14.5
                                           rust-hashbrown-0.15.5
-                                          rust-hashbrown-0.17.0
+                                          rust-hashbrown-0.16.1
                                           rust-hecs-0.10.5
                                           rust-hecs-macros-0.10.0
                                           rust-hermit-abi-0.5.2
+                                          rust-hostname-0.4.2
                                           rust-humantime-2.3.0
                                           rust-ident-case-1.0.1
-                                          rust-indexmap-2.14.0
+                                          rust-indexmap-2.12.1
                                           rust-is-terminal-0.4.17
                                           rust-itertools-0.13.0
-                                          rust-itoa-1.0.18
-                                          rust-libc-0.2.185
+                                          rust-itoa-1.0.15
+                                          rust-libc-0.2.177
                                           rust-libloading-0.8.9
-                                          rust-linux-raw-sys-0.12.1
-                                          rust-log-0.4.29
-                                          rust-memchr-2.8.0
-                                          rust-memmap2-0.9.10
+                                          rust-linux-raw-sys-0.11.0
+                                          rust-log-0.4.28
+                                          rust-memchr-2.7.6
+                                          rust-memmap2-0.9.9
                                           rust-minimal-lexical-0.2.1
                                           rust-miniz-oxide-0.8.9
                                           rust-nom-7.1.3
-                                          rust-num-conv-0.2.1
-                                          rust-num-enum-0.7.6
-                                          rust-num-enum-derive-0.7.6
+                                          rust-num-conv-0.1.0
+                                          rust-num-enum-0.7.5
+                                          rust-num-enum-derive-0.7.5
                                           rust-num-threads-0.1.7
-                                          rust-once-cell-1.21.4
+                                          rust-once-cell-1.21.3
                                           rust-owned-ttf-parser-0.25.1
-                                          rust-pkg-config-0.3.33
+                                          rust-pkg-config-0.3.32
                                           rust-png-0.17.16
                                           rust-powerfmt-0.2.0
                                           rust-pretty-env-logger-0.5.0
                                           rust-prettyplease-0.2.37
-                                          rust-proc-macro-crate-3.5.0
-                                          rust-proc-macro2-1.0.106
+                                          rust-proc-macro-crate-3.4.0
+                                          rust-proc-macro2-1.0.103
                                           rust-quick-xml-0.30.0
-                                          rust-quick-xml-0.39.2
-                                          rust-quote-1.0.45
-                                          rust-regex-1.12.3
-                                          rust-regex-automata-0.4.14
-                                          rust-regex-syntax-0.8.10
-                                          rust-rustc-hash-2.1.2
-                                          rust-rustix-1.1.4
+                                          rust-quick-xml-0.37.5
+                                          rust-quote-1.0.42
+                                          rust-regex-1.12.2
+                                          rust-regex-automata-0.4.13
+                                          rust-regex-syntax-0.8.8
+                                          rust-rustc-hash-2.1.1
+                                          rust-rustix-1.1.2
                                           rust-rustversion-1.0.22
                                           rust-sd-notify-0.4.5
+                                          rust-serde-1.0.228
                                           rust-serde-core-1.0.228
                                           rust-serde-derive-1.0.228
                                           rust-shlex-1.3.0
-                                          rust-simd-adler32-0.3.9
+                                          rust-simd-adler32-0.3.7
                                           rust-smallvec-1.15.1
                                           rust-smithay-client-toolkit-0.20.0
                                           rust-spin-0.9.8
                                           rust-strict-num-0.1.1
                                           rust-strsim-0.11.1
-                                          rust-syn-2.0.117
+                                          rust-syn-2.0.111
+                                          rust-syslog-7.0.0
                                           rust-termcolor-1.4.1
-                                          rust-thiserror-2.0.18
-                                          rust-thiserror-impl-2.0.18
-                                          rust-time-0.3.47
-                                          rust-time-core-0.1.8
-                                          rust-time-macros-0.2.27
+                                          rust-thiserror-2.0.17
+                                          rust-thiserror-impl-2.0.17
+                                          rust-time-0.3.44
+                                          rust-time-core-0.1.6
+                                          rust-time-macros-0.2.24
                                           rust-tiny-skia-0.11.4
                                           rust-tiny-skia-path-0.11.4
-                                          rust-toml-datetime-1.1.1+spec-1.1.0
-                                          rust-toml-edit-0.25.11+spec-1.1.0
-                                          rust-toml-parser-1.1.2+spec-1.1.0
+                                          rust-toml-datetime-0.7.3
+                                          rust-toml-edit-0.23.7
+                                          rust-toml-parser-1.0.4
                                           rust-ttf-parser-0.21.1
                                           rust-ttf-parser-0.25.1
-                                          rust-unicode-ident-1.0.24
-                                          rust-vergen-9.1.0
+                                          rust-unicode-ident-1.0.22
+                                          rust-vergen-9.0.6
                                           rust-vergen-gitcl-1.0.8
                                           rust-vergen-lib-0.1.6
-                                          rust-vergen-lib-9.1.0
                                           rust-version-check-0.9.5
-                                          rust-wayland-backend-0.3.15
-                                          rust-wayland-client-0.31.14
+                                          rust-wayland-backend-0.3.11
+                                          rust-wayland-client-0.31.11
                                           rust-wayland-csd-frame-0.3.0
-                                          rust-wayland-cursor-0.31.14
-                                          rust-wayland-protocols-0.32.12
+                                          rust-wayland-cursor-0.31.11
+                                          rust-wayland-protocols-0.32.9
                                           rust-wayland-protocols-experimental-20250721.0.1
-                                          rust-wayland-protocols-misc-0.3.12
-                                          rust-wayland-protocols-wlr-0.3.12
-                                          rust-wayland-scanner-0.31.10
-                                          rust-wayland-server-0.31.13
-                                          rust-wayland-sys-0.31.11
+                                          rust-wayland-protocols-misc-0.3.9
+                                          rust-wayland-protocols-wlr-0.3.9
+                                          rust-wayland-scanner-0.31.7
+                                          rust-wayland-server-0.31.10
+                                          rust-wayland-sys-0.31.7
                                           rust-winapi-util-0.1.11
                                           rust-windows-link-0.2.1
                                           rust-windows-sys-0.61.2
-                                          rust-winnow-1.0.1
+                                          rust-winnow-0.7.14
                                           rust-xcb-1.7.0
                                           rust-xcb-util-cursor-0.4.0
                                           rust-xcb-util-cursor-sys-0.2.0
                                           rust-xcursor-0.3.10
                                           rust-xkeysym-0.2.1
                                           rust-yeslogic-fontconfig-sys-6.0.0
-                                          rust-zerocopy-0.8.48
-                                          rust-zerocopy-derive-0.8.48))
+                                          rust-zerocopy-0.8.31
+                                          rust-zerocopy-derive-0.8.31))
                      (yabridgectl =>
                                   (list rust-anstream-0.6.21
                                    rust-anstyle-1.0.13
